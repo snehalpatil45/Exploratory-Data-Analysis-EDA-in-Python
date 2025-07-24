@@ -1,0 +1,59 @@
+# 🍽️ Restaurant Data Analysis – Task 1 (Level 1)
+
+This is my **first data analytics project** completed during my internship at **Cognifyz Technologies**. The task focused on performing **Exploratory Data Analysis (EDA)** on a restaurant dataset using Python and key libraries like **Pandas** and **Matplotlib**.
+
+---
+
+## 🔍 Project Objective
+
+To clean and analyze a restaurant dataset by:
+- Handling missing values
+- Encoding categorical (Yes/No) columns
+- Exploring the distribution of aggregate ratings
+- Visualizing the results with bar plots
+
+---
+
+## 🧰 Tools & Technologies Used
+
+- **Python 3.x**
+- **Pandas**
+- **Matplotlib**
+- Jupyter Notebook / Google Colab
+
+---
+
+## 📁 Dataset Description
+
+The dataset includes features like:
+- Restaurant name, location, cuisines
+- Aggregate rating
+- Availability of table booking and online delivery
+
+> 📌 *Note: Due to privacy concerns, the dataset is not included here. Please replace the path or upload your own version for testing.*
+
+---
+
+## 🧹 Data Cleaning Steps
+
+1. Checked for missing values.
+2. Filled missing values in the `Cuisines` column with `'Unknown'`.
+3. Converted `Yes/No` columns to binary (1/0) values.
+
+---
+
+## 📊 Visualization
+
+Generated a bar chart showing the **distribution of aggregate ratings** using `Matplotlib`.
+
+![Sample Output Plot](your_plot_image_link_here)  
+*(Upload and replace with your own output screenshot or chart)*
+
+---
+
+## 📌 How to Run
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/yourusername/restaurant-data-analysis.git
+   cd restaurant-data-analysis
